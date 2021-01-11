@@ -1,9 +1,7 @@
-/**
- * Adobe Edge: symbol definitions
- */
+
 (function($, Edge, compId){
-//images folder
-var im='images/';
+
+var im='https://raw.githubusercontent.com/DeathBarmaglot/sc/main/images/';
 
 var fonts = {};
 var opts = {
@@ -165,9 +163,7 @@ var symbols = {
 
 Edge.registerCompositionDefn(compId, symbols, fonts, resources, opts);
 
-/**
- * Adobe Edge DOM Ready Event Handler
- */
+
 $(window).ready(function() {
      Edge.launchComposition(compId);
 });

@@ -44,8 +44,9 @@ if(document.addEventListener ){
    };
 
    aLoader = [
-      { load: "edge_includes/jquery-2.0.3.min.js"},
-      { load: "edge_includes/edge.4.0.0.min.js"},
+      
+      { load: "https://raw.githack.com/DeathBarmaglot/sc/main/ml/edge_includes/jquery-2.0.3.min.js"},
+      { load: "https://raw.githack.com/DeathBarmaglot/sc/main/ml/edge_includes/edge.4.0.0.min.js"},
       { load: "index_edge.js"},
       { load: "index_edgeActions.js"}];
 
